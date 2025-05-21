@@ -1,4 +1,5 @@
 import './App.css'
+import Shohan from './Shohan'
 
 function App() {
   
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <h1>KING SHOHAN 👑</h1>
+      <Shohan></Shohan>
     </>
   )
 }
