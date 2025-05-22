@@ -10,15 +10,14 @@ A quick reference for writing clean, functional, and consistent React code.
 - React uses **PascalCase** (e.g., `MyComponent`) for custom components.
 - Lowercase names like `<div>` or `<button>` are treated as native HTML elements.
 
-### 🔍 Example
+
+
+### useState in React
+
+`useState` returns an array with two elements:
 
 ```jsx
-// ✅ Correct
-function MyComponent() {
-  return <h1>Hello, world!</h1>;
-}
-
-// ❌ Incorrect
-function myComponent() {
-  return <h1>Hello, world!</h1>;
-}
+const [value, setValue] = useState(initialValue);
+```
+- Here value is something like a variable
+- And setValue is something like a function

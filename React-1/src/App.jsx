@@ -6,33 +6,25 @@ function App() {
   const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
-    setCount(count + 1)
-  }
+    setCount(count + 1);
+  };
   const handleDecrement = () => {
-    setCount(count - 1)
-  }
+    setCount(count - 1);
+  };
   const handleReset = () => {
-    setCount(0)
-  }
+    setCount(0);
+  };  
   return (
     <>
       <h1>KING SHOHAN 👑</h1>
       <Shohan></Shohan>
       <h2>Counter Value </h2>
       <div>
-        <button onClick={handleIncrement}>
-          Increment
-        </button>
-        <button>
-               Counter: {count}
-        </button>
-        <button onClick={handleDecrement}>
-          Decrement
-        </button>
+        <button onClick={handleDecrement}>Decrement</button>
+        <button>Counter: {count}</button>
+        <button onClick={handleIncrement}>Increment</button>
       </div>
-      <button onClick={handleReset}>
-        Reset
-      </button>
+      <button onClick={handleReset}>Reset</button>
     </>
   );
 }
