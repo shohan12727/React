@@ -1,12 +1,16 @@
 
 import './App.css'
+import BgChnage from './BgChnage'
+import Board from './Board'
 
 function App() {
  
 
   return (
     <>
-    <h1>Hello shohan</h1>
+    
+    <Board></Board>
+    <BgChnage></BgChnage>
     </>
   )
 }
