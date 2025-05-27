@@ -3,6 +3,7 @@ import './App.css'
 import BgChnage from './BgChnage'
 import Board from './Board'
 import Value from './Value'
+import Click from './Click'
 function App() {
  
 
@@ -11,6 +12,7 @@ function App() {
     <Value></Value>
     <Board></Board>
     <BgChnage></BgChnage>
+    <Click></Click>
     </>
   )
 }
