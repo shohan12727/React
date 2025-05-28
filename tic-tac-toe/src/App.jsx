@@ -5,6 +5,10 @@ import Board from './Board'
 import Value from './Value'
 import Click from './Click'
 import Square from './Square'
+import Image from './Image'
+import Cena from './Cena'
+import Car from './Car'
+import People from './People'
 function App() {
  
 
@@ -15,6 +19,11 @@ function App() {
     <BgChnage></BgChnage>
     <Click></Click>
     <Square></Square>
+    <Image></Image>
+    <Cena></Cena>
+    <Car></Car>
+    <People></People>
+    
     </>
   )
 }
