@@ -14,7 +14,7 @@ const NameEcho = () => {
        type="text"
        value={input}
         onChange={(e) => setInput(e.target.value)}
-        className="w-md px-x py-2 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 " 
+        className="w-md  py-2 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 " 
         placeholder="start typing..........."
        />
        <p 

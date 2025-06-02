@@ -1,6 +1,7 @@
 import './App.css'
 import Dark from './Dark'
 import NameEcho from './NameEcho'
+import ToggleVisibility from './ToggleVisibility'
 function App() {
   
 
@@ -9,6 +10,7 @@ function App() {
       <h1>Shohan</h1>
       <Dark></Dark>
       <NameEcho></NameEcho>
+      <ToggleVisibility></ToggleVisibility>
     </>
   )
 }
