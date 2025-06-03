@@ -1,4 +1,5 @@
 import "./App.css";
+import ConditionalMessage from "./ConditionalMessage";
 import Dark from "./Dark";
 import NameEcho from "./NameEcho";
 import ProductCart from "./ProductCart";
@@ -10,10 +11,8 @@ function App() {
       <Dark></Dark>
       <NameEcho></NameEcho>
       <ToggleVisibility></ToggleVisibility>
-      <ProductCart
-      title='Wireless Headphone'
-      price='$99.99'
-      ></ProductCart>
+      <ProductCart title="Wireless Headphone" price="$99.99"></ProductCart>
+      <ConditionalMessage></ConditionalMessage>
     </>
   );
 }
