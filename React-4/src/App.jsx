@@ -3,6 +3,7 @@ import ConditionalMessage from "./ConditionalMessage";
 import Dark from "./Dark";
 import NameEcho from "./NameEcho";
 import ProductCart from "./ProductCart";
+import TabConponent from "./TabConponent";
 import ToggleVisibility from "./ToggleVisibility";
 import UserList from "./UserList";
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ProductCart title="Wireless Headphone" price="$99.99"></ProductCart>
       <ConditionalMessage></ConditionalMessage>
       <UserList></UserList>
+      <TabConponent></TabConponent>
     </>
   );
 }
