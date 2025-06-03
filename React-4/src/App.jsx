@@ -1,6 +1,7 @@
 import "./App.css";
 import ConditionalMessage from "./ConditionalMessage";
 import Dark from "./Dark";
+import ImageGallary from "./ImageGallary";
 import NameEcho from "./NameEcho";
 import ProductCart from "./ProductCart";
 import TabConponent from "./TabConponent";
@@ -17,6 +18,7 @@ function App() {
       <ConditionalMessage></ConditionalMessage>
       <UserList></UserList>
       <TabConponent></TabConponent>
+      <ImageGallary></ImageGallary>
     </>
   );
 }
