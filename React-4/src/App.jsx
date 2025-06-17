@@ -7,6 +7,7 @@ import ProductCart from "./ProductCart";
 import TabConponent from "./TabConponent";
 import ToggleVisibility from "./ToggleVisibility";
 import UserList from "./UserList";
+import ValidationForm from "./ValidationForm";
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
       <UserList></UserList>
       <TabConponent></TabConponent>
       <ImageGallary></ImageGallary>
-      
+      <ValidationForm></ValidationForm>
     </>
   );
 }
