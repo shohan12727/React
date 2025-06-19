@@ -1,14 +1,28 @@
 import './App.css'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router";
+import Navbar from './Components/Navber/Navbar';
+
 
 function App() {
- 
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <><Navbar></Navbar></>,
+    },
+  ]);
+
 
   return (
     <>
-     <h1 className='text-2xl text-center bg-amber-200'>King Shohan👑</h1>
+
+      <RouterProvider router={router} />
+
     </>
   )
 }
 
 export default App
- 
