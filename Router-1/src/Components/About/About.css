@@ -1,0 +1,39 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+  background-color: #fafafa;
+  min-height: 75vh;      /* reduced height for less imposing */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;          
+  margin: 0 auto;        /* center horizontally */
+  box-sizing: border-box;
+}
+
+.about-content {
+  max-width: 100%;       /* fill the container */
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);  /* lighter shadow */
+  color: #444;
+}
+
+.about-heading {
+  font-size: 28px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #222;
+  font-weight: 600;
+}
+
+.about-paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.about-paragraph strong {
+  color: #0070f3;
+}

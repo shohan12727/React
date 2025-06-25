@@ -1,0 +1,140 @@
+/* Fonts and Base Setup */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  height: 100vh;
+  padding: 50px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Left Side - Text */
+.home-left {
+  flex: 1;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  animation: fadeInLeft 1.2s ease;
+}
+
+.home-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-left h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #00ffc6;
+  margin-bottom: 20px;
+}
+
+.home-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* Button */
+.home-btn {
+  background: #00ffc6;
+  color: #141e30;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 255, 198, 0.3);
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  background: #00d6a7;
+  box-shadow: 0 4px 20px rgba(0, 255, 198, 0.5);
+}
+
+/* Right Side - Image */
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInRight 1.2s ease;
+}
+
+.profile-img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00ffc6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Glass effect card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+  }
+}

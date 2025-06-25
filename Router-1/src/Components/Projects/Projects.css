@@ -1,0 +1,42 @@
+.projects-container {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.projects-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.wip-message h2 {
+  font-size: 2rem;
+  color: #0070f3; /* A modern accent blue */
+  margin-bottom: 15px;
+}
+
+.wip-message p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Simple spinner animation */
+.spinner {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border: 6px solid #eee;
+  border-top-color: #0070f3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
