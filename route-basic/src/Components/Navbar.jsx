@@ -2,7 +2,6 @@ import { Link } from 'react-router';
 const Navbar = () => {
   
 
-
   return (
     <div>
       <nav>
